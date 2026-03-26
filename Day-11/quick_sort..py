@@ -34,6 +34,5 @@ def partition(arr,low,high):
                   i+=1
       arr[i],arr[high]=arr[high],arr[i]
       return i
-arr=list(map(int,input().split()))
 k=int(input())
 print(quick_select(arr,k))
